@@ -40,10 +40,8 @@ public class WarehouseServiceImpl extends AbstractService implements IWarehouseS
 	private IStorageRecordStatusDAO storageRecordStatusDAO ;
 	@Resource
 	private IStorageApplyDetailsDAO storageApplyDetailsDAO ;
-	
 	@Resource
 	private IWitemDAO witemDAO ;
-	
 	@Resource
 	private RedisTemplate<String,StorageApplyDetails> redisTemplate ;
 	@Override
